@@ -1,111 +1,48 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "created_at": "2025-01-12T00:00:00Z",
-  "updated_at": "2025-01-12T00:00:00Z",
+  "updated_at": "2025-01-12T01:00:00Z",
   "language": "ja",
   "source": {
     "repo": "https://github.com/sparticleinc/mygpt-frontend",
     "branch": "main",
-    "analyzed_at": "2025-01-12T00:00:00Z"
+    "analyzed_at": "2025-01-12T01:00:00Z"
+  },
+  "screenshots": {
+    "status": "placeholder",
+    "list": [
+      {"id": "screenshot_01_homepage", "description": "GBase Support トップページ", "page": "https://cs.gbase.ai/"},
+      {"id": "screenshot_02_top_navigation", "description": "トップページのナビゲーションメニュー", "page": "https://cs.gbase.ai/"},
+      {"id": "screenshot_03_login_button", "description": "ログインボタン", "page": "https://cs.gbase.ai/"},
+      {"id": "screenshot_04_login_page", "description": "ログイン画面（Auth0）", "page": "https://dev-zn4nbua6ymb1fxbf.us.auth0.com/u/login"},
+      {"id": "screenshot_05_admin_dashboard", "description": "管理画面メイン", "page": "https://admin.gbase.ai/bots"},
+      {"id": "screenshot_06_create_bot_card", "description": "ボット作成カード", "page": "https://admin.gbase.ai/bots"},
+      {"id": "screenshot_07_create_bot_modal", "description": "ボット作成モーダル", "page": "https://admin.gbase.ai/bots"}
+    ]
   },
   "sections": [
-    {
-      "id": "1",
-      "title": "はじめに",
-      "source_files": ["apps/admin/src/main.tsx", "apps/web/src/main.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "2",
-      "title": "クイックスタート",
-      "source_files": ["apps/admin/src/pages/Login/index.tsx", "apps/admin/src/layout/"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.1",
-      "title": "チャットボット管理",
-      "source_files": ["apps/admin/src/pages/Bots/index.tsx", "apps/admin/src/pages/Create/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.2",
-      "title": "ダッシュボード",
-      "source_files": ["apps/admin/src/components/Dashboard/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.3",
-      "title": "データソース管理",
-      "source_files": ["apps/admin/src/pages/Bot/DataSource/index.tsx", "apps/admin/src/pages/Datasets/"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.4",
-      "title": "設定",
-      "source_files": ["apps/admin/src/components/Settings/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.5",
-      "title": "公開・埋め込み",
-      "source_files": ["apps/admin/src/pages/Bot/WidgetEmbed/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.6",
-      "title": "チーム管理",
-      "source_files": ["apps/admin/src/pages/Team/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.7",
-      "title": "APIキー管理",
-      "source_files": ["apps/admin/src/pages/ApiKeys/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.8",
-      "title": "デジタルヒューマン",
-      "source_files": ["apps/admin/src/pages/Bot/DigitalHuman/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.9",
-      "title": "リアルタイム音声対話",
-      "source_files": ["apps/admin/src/pages/Bot/Realtime/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.10",
-      "title": "MCPサービス設定",
-      "source_files": ["apps/admin/src/components/Manage/MCP/"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.11",
-      "title": "タグ管理",
-      "source_files": ["apps/admin/src/pages/Bot/Tag/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    },
-    {
-      "id": "3.12",
-      "title": "辞書管理",
-      "source_files": ["apps/admin/src/pages/Bot/Dictionary/index.tsx"],
-      "last_updated": "2025-01-12T00:00:00Z"
-    }
+    {"id": "1", "title": "はじめに", "source_files": ["apps/web/src/main.tsx"], "last_updated": "2025-01-12T01:00:00Z"},
+    {"id": "2", "title": "クイックスタート", "source_files": ["apps/admin/src/pages/Login/index.tsx", "apps/admin/src/routes/index.tsx"], "last_updated": "2025-01-12T01:00:00Z"},
+    {"id": "3", "title": "チャットボットの作成", "source_files": ["apps/admin/src/pages/Bots/index.tsx", "apps/admin/src/pages/Create/index.tsx"], "last_updated": "2025-01-12T01:00:00Z"},
+    {"id": "4", "title": "データソースの追加", "source_files": ["apps/admin/src/pages/Bot/DataSource/index.tsx", "apps/admin/src/pages/Datasets/"], "last_updated": "2025-01-12T01:00:00Z"},
+    {"id": "5", "title": "設定", "source_files": ["apps/admin/src/components/Settings/index.tsx"], "last_updated": "2025-01-12T01:00:00Z"},
+    {"id": "6", "title": "公開・埋め込み", "source_files": ["apps/admin/src/pages/Bot/WidgetEmbed/index.tsx"], "last_updated": "2025-01-12T01:00:00Z"}
   ],
   "history": [
     {
+      "version": "1.1.0",
+      "date": "2025-01-12T01:00:00Z",
+      "changes": [
+        {"section": "全章", "type": "modified", "reason": "詳細操作手順を追加"},
+        {"section": "全章", "type": "added", "reason": "スクリーンショット占位符を追加"},
+        {"section": "第2章", "type": "modified", "reason": "ログイン手順の詳細化"},
+        {"section": "第3章", "type": "modified", "reason": "ボット作成手順の詳細化"}
+      ]
+    },
+    {
       "version": "1.0.0",
       "date": "2025-01-12T00:00:00Z",
-      "commit_range": null,
-      "changes": [
-        {
-          "section": "全部",
-          "type": "created",
-          "reason": "初次生成"
-        }
-      ]
+      "changes": [{"section": "全部", "type": "created", "reason": "初次生成"}]
     }
   ]
 }

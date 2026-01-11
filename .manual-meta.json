@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "created_at": "2025-01-12T00:00:00Z",
+  "updated_at": "2025-01-12T00:00:00Z",
+  "language": "ja",
+  "source": {
+    "repo": "https://github.com/sparticleinc/mygpt-frontend",
+    "branch": "main",
+    "analyzed_at": "2025-01-12T00:00:00Z"
+  },
+  "sections": [
+    {
+      "id": "1",
+      "title": "はじめに",
+      "source_files": ["apps/admin/src/main.tsx", "apps/web/src/main.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "クイックスタート",
+      "source_files": ["apps/admin/src/pages/Login/index.tsx", "apps/admin/src/layout/"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.1",
+      "title": "チャットボット管理",
+      "source_files": ["apps/admin/src/pages/Bots/index.tsx", "apps/admin/src/pages/Create/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.2",
+      "title": "ダッシュボード",
+      "source_files": ["apps/admin/src/components/Dashboard/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.3",
+      "title": "データソース管理",
+      "source_files": ["apps/admin/src/pages/Bot/DataSource/index.tsx", "apps/admin/src/pages/Datasets/"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.4",
+      "title": "設定",
+      "source_files": ["apps/admin/src/components/Settings/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.5",
+      "title": "公開・埋め込み",
+      "source_files": ["apps/admin/src/pages/Bot/WidgetEmbed/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.6",
+      "title": "チーム管理",
+      "source_files": ["apps/admin/src/pages/Team/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.7",
+      "title": "APIキー管理",
+      "source_files": ["apps/admin/src/pages/ApiKeys/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.8",
+      "title": "デジタルヒューマン",
+      "source_files": ["apps/admin/src/pages/Bot/DigitalHuman/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.9",
+      "title": "リアルタイム音声対話",
+      "source_files": ["apps/admin/src/pages/Bot/Realtime/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.10",
+      "title": "MCPサービス設定",
+      "source_files": ["apps/admin/src/components/Manage/MCP/"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.11",
+      "title": "タグ管理",
+      "source_files": ["apps/admin/src/pages/Bot/Tag/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    },
+    {
+      "id": "3.12",
+      "title": "辞書管理",
+      "source_files": ["apps/admin/src/pages/Bot/Dictionary/index.tsx"],
+      "last_updated": "2025-01-12T00:00:00Z"
+    }
+  ],
+  "history": [
+    {
+      "version": "1.0.0",
+      "date": "2025-01-12T00:00:00Z",
+      "commit_range": null,
+      "changes": [
+        {
+          "section": "全部",
+          "type": "created",
+          "reason": "初次生成"
+        }
+      ]
+    }
+  ]
+}
